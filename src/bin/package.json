@@ -1,0 +1,15 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "Console brain games",
+  "main": "brain-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Brain",
+    "games"
+  ],
+  "author": "Vitalii Agapov",
+  "license": "ISC"
+}
