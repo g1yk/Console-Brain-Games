@@ -1,14 +1,26 @@
+#!/usr/bin/env node
 
-import readlineSync from 'readline-sync';
-import userName from './bin/brain-games';
+const readlineSync = require('readline-sync');
+/*
+// Wait for user's response.
+var userName = readlineSync.question('May I have your name? ');
+console.log('Hi ' + userName + '!');
 
+// Handle the secret text (e.g. password).
+var favFood = readlineSync.question('What is your favorite food? ', {
+  hideEchoBack: true // The typed text on screen is hidden by `*` (default).
+});
+console.log('Oh, ' + userName + ' loves ' + favFood + '!');
+*/
 
-
-export const greeting = () => {
+ 
+const greeting = () => {
   console.log('Welcome to the Brain Games!');
   console.log('Answer "yes" if number even. Otherwise answer "no".');
   console.log(' ');
 };
+
+
 // Check if number is even
 const isNumberEven = (num) => {
   if (num % 2 === 0) {
@@ -30,7 +42,7 @@ const anwer = (answer) => {
     return console.log('Wrong!')
   }
 }
-export const question = () => {
+const question = () => {
   let points = 0
   for (let i = 0; i < 3; i++) {
     let num = randomInteger(1, 100)
@@ -53,3 +65,11 @@ export const question = () => {
       console.log(`\nCongratulations, ${userName}!`)
     }
 }
+
+greeting();
+const userName = readlineSync.question('May I have your name? ');
+console.log(`Hello, ${userName}!`);
+
+question();
+//'yes' is wrong answer ;(. Correct answer was 'no'.
+//Let's try again, Bill!

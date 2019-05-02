@@ -4,8 +4,8 @@ install:
 start:
 	sudo npx babel-node src/bin/brain-games.js
 build:
-	rm -rf dist
-	npm run build
+	sudo rm -rf dist
+	sudo npm run build
 publish:
 	npm publish
 lint:
@@ -14,3 +14,5 @@ test:
 	npm test
 test-coverage:
 	npm test -- --coverage
+babel:
+	sudo npx babel src --out-dir dist
