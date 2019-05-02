@@ -2,4 +2,4 @@
 
 # Brain Games
 
-[![asciicast](https://asciinema.org/a/d89iLOwBQRBAENX5HXV2Tj0hj.svg)](https://asciinema.org/a/d89iLOwBQRBAENX5HXV2Tj0hj)
+<script id="asciicast-d89iLOwBQRBAENX5HXV2Tj0hj" src="https://asciinema.org/a/d89iLOwBQRBAENX5HXV2Tj0hj.js" async></script>
