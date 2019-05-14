@@ -1,39 +1,41 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
-import game  from '../../core';
+import game from '../../core';
 
 
 const randomInteger = (min, max) => {
-  let rand = min - 0.5 + Math.random() * (max - min + 1)
+  let rand = min - 0.5 + Math.random() * (max - min + 1);
   rand = Math.round(rand);
   return rand;
 };
 
-const num1 = randomInteger(0, 25);
-const num2 = randomInteger(0, 25)
-
-
- 
-
-
 const description = () => {
-  let question = () => {
-  for (question = 0; question >3; question++){
-  switch (question) {
+  const sign = randomInteger(1, 4);
+  const num1 = randomInteger(0, 25);
+  const num2 = randomInteger(0, 25);
+
+  let question;
+  let correctAnswer;
+
+  switch (sign) {
     case 1:
-      console.log('1')
+      question = `${num1} + ${num2}`;
+      correctAnswer = num1 + num2;
+      break;
     case 2:
-    console.log('2')
-
-    case 3:
-    console.log('3')
+      question = `${num1} - ${num2}`;
+      correctAnswer = num1 - num2;
+      break;
+    default:
+      question = `${num1} * ${num2}`;
+      correctAnswer = num1 * num2;
+      break;
   }
-  }
-  const correctAnswer = num1 + num2;
 
-return cons(question, correctAnswer.toString())
-}
+
+  return cons(question, correctAnswer.toString());
+};
 const intro = 'What is the result of the expression?';
 
 
-game(description, intro)
+game(description, intro);
