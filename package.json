@@ -1,10 +1,10 @@
 {
   "name": "brain-games-onlyo",
-  "version": "1.0.11",
+  "version": "1.0.13",
   "description": "",
   "main": "index.js",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js",
+    "brain-calc": "dist/bin/brain-calc.js",
     "brain-even": "dist/bin/brain-even.js",
     "brain-prime": "dist/bin/brain-prime.js",
     "brain-nod": "dist/bin/brain-nod.js",

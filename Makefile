@@ -2,7 +2,11 @@
 install:
 	npm install
 start:
-	sudo npx babel-node src/bin/brain-games.js
+	sudo npx babel-node src/bin/games/brain-even.js
+	sudo npx babel-node src/bin/games/brain-calc.js
+	sudo npx babel-node src/bin/games/brain-nod.js
+	sudo npx babel-node src/bin/games/brain-prime.js
+	sudo npx babel-node src/bin/games/brain-progression.js
 build:
 	sudo rm -rf dist
 	sudo npm run build
