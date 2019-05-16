@@ -1,14 +1,14 @@
 {
   "name": "brain-games-onlyo",
-  "version": "1.0.15",
+  "version": "1.0.18",
   "description": "",
   "main": "index.js",
   "bin": {
-    "brain-calc": "dist/bin/brain-calc.js",
-    "brain-even": "dist/bin/brain-even.js",
-    "brain-prime": "dist/bin/brain-prime.js",
-    "brain-nod": "dist/bin/brain-nod.js",
-    "brain-progression": "dist/bin/brain-progression.js"
+    "brain-calc": "dist/bin/games/brain-calc.js",
+    "brain-even": "dist/bin/games/brain-even.js",
+    "brain-prime": "dist/bin/games/brain-prime.js",
+    "brain-nod": "dist/bin/games/brain-nod.js",
+    "brain-progression": "dist/bin/games/brain-progression.js"
   },
   "engines": {
     "node": ">=8"
