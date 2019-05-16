@@ -39,8 +39,8 @@ brain-calc
 ```
 Find out the result of the expression
 ```
-Question: 1 + 12
-Your answer: 13
+Question: 5 * 12
+Your answer: 60
 Correct!
 ```
 [![asciicast](https://asciinema.org/a/lVzEc03EVmoTSVT7qEnlVb2y6.svg)](https://asciinema.org/a/lVzEc03EVmoTSVT7qEnlVb2y6)
