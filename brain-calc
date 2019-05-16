@@ -1,0 +1,11 @@
+{"version": 2, "width": 92, "height": 19, "timestamp": 1557968849, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.549736, "o", "\u001b]0;vitalii@vitalii-VirtualBox: ~/brain-games\u0007\u001b[01;32mvitalii@vitalii-VirtualBox\u001b[00m:\u001b[01;34m~/brain-games\u001b[00m$ "]
+[2.067917, "o", "b"]
+[4.252953, "o", "\b\u001b[K"]
+[4.528298, "o", "\u0007"]
+[6.826406, "o", "b"]
+[7.252836, "o", "r"]
+[7.946044, "o", "\b\u001b[K"]
+[8.12816, "o", "\b\u001b[K"]
+[8.303835, "o", "\u0007"]
+[9.662914, "o", "exit\r\n"]
