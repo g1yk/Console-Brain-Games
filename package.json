@@ -1,7 +1,13 @@
 {
   "name": "brain-games-onlyo",
   "version": "1.0.19",
-  "description": "",
+  "description": "Console brain games",
+  "keywords": [
+    "braingames",
+    "console",
+    "games",
+    "quiz"
+  ],
   "main": "index.js",
   "bin": {
     "brain-calc": "dist/bin/games/brain-calc.js",
