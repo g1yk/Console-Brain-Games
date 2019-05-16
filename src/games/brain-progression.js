@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
-import game from '../../core';
-import randomInteger from '../../utils'
+import game from '../core';
+import randomInteger from '../utils'
 
 const description = () => {
   const firstNumber = randomInteger(1, 11);
@@ -25,4 +25,4 @@ const description = () => {
 
 const intro = 'What number is missing in this progression?';
 
-game(description, intro);
+export default () => game(description, intro);

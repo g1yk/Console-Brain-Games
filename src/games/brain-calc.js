@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
-import game from '../../core';
-import randomInteger from '../../utils'
+import game from '../core';
+import randomInteger from '../utils'
 
 const description = () => {
   const sign = randomInteger(1, 4);
@@ -32,4 +32,4 @@ const description = () => {
 const intro = 'What is the result of the expression?';
 
 
-game(description, intro);
+export default () => game(description, intro);

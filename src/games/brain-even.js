@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
-import game from '../../core';
-import randomInteger from '../../utils'
+import game from '../core';
+import randomInteger from '../utils'
 
 const isNumberEven = (num) => (num % 2 === 0) ? true : false
 
@@ -13,4 +13,4 @@ const description = () => {
 };
 const intro = 'Answer "yes" if number even otherwise answer "no"';
 
-game(description, intro);
+export default () => game(description, intro);
