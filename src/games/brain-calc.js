@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
 import game from '../core';
-import randomInteger from '../utils'
+import randomInteger from '../utils';
 
 const description = () => {
   const sign = randomInteger(1, 4);

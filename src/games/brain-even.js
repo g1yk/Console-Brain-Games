@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
 import game from '../core';
-import randomInteger from '../utils'
+import randomInteger from '../utils';
 
-const isNumberEven = (num) => (num % 2 === 0) ? true : false
+const isNumberEven = num => ((num % 2 === 0));
 
 const description = () => {
   const question = randomInteger(0, 25);

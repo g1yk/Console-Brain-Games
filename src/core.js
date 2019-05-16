@@ -20,7 +20,7 @@ const game = (description, intro) => {
     if (userAnswer === getAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${userAnswer} is wrong answer. Correct answer is ${getAnswer}`)
+      console.log(`${userAnswer} is wrong answer. Correct answer is ${getAnswer}`);
       console.log(`Let's try again, ${userName}!`);
     }
   }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
 import game from '../core';
-import randomInteger from '../utils'
+import randomInteger from '../utils';
 
 const gcd = (a, b) => {
   if (!b) {
