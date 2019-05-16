@@ -2,8 +2,6 @@
 
 # Console Brain Games
 
-[![asciicast](https://asciinema.org/a/d89iLOwBQRBAENX5HXV2Tj0hj.svg)](https://asciinema.org/a/d89iLOwBQRBAENX5HXV2Tj0hj)
-
 ## How to install
 ```
 sudo npm install brain-games-onlyo -g
