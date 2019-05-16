@@ -5,7 +5,6 @@
 ## How to install
 ```
 sudo npm install brain-games-onlyo -g
-
 ```
 ## List of games
 ```
