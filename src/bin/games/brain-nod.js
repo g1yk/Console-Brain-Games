@@ -1,22 +1,18 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
 import game from '../../core';
+import randomInteger from '../../utils'
 
-const randomInteger = (min, max) => {
-  let rand = min - 0.5 + Math.random() * (max - min + 1);
-  rand = Math.round(rand);
-  return rand;
+const gcd = (a, b) => {
+  if (!b) {
+    return a;
+  }
+  return gcd(b, a % b);
 };
 
 const description = () => {
   const num1 = randomInteger(0, 50);
   const num2 = randomInteger(0, 50);
-  const gcd = (a, b) => {
-    if (!b) {
-      return a;
-    }
-    return gcd(b, a % b);
-  };
   const question = `${num1}, ${num2}`;
   const correctAnswer = gcd(num1, num2);
 

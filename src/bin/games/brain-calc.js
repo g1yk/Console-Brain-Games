@@ -1,13 +1,7 @@
 #!/usr/bin/env node
 import { cons } from 'hexlet-pairs';
 import game from '../../core';
-
-
-const randomInteger = (min, max) => {
-  let rand = min - 0.5 + Math.random() * (max - min + 1);
-  rand = Math.round(rand);
-  return rand;
-};
+import randomInteger from '../../utils'
 
 const description = () => {
   const sign = randomInteger(1, 4);
