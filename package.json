@@ -1,6 +1,6 @@
 {
   "name": "brain-games-onlyo",
-  "version": "1.0.24",
+  "version": "1.0.27",
   "description": "Console brain games",
   "keywords": [
     "braingames",
@@ -9,11 +9,11 @@
     "quiz"
   ],
   "bin": {
-    "calc": "dist/bin/brain-calc.js",
-    "even": "dist/bin/brain-even.js",
-    "prime": "dist/bin/brain-prime.js",
-    "nod": "dist/bin/brain-nod.js",
-    "progression": "dist/bin/brain-progression.js"
+    "brain-calc": "dist/bin/brain-calc.js",
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-prime": "dist/bin/brain-prime.js",
+    "brain-nod": "dist/bin/brain-nod.js",
+    "brain-progression": "dist/bin/brain-progression.js"
   },
   "engines": {
     "node": ">=8"
