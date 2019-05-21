@@ -13,14 +13,14 @@ const game = (description, intro) => {
 
   for (let n = 0; n < rounds; n += 1) {
     const gameCheck = description();
-    const getQuestion = car(gameCheck);
-    const getAnswer = cdr(gameCheck);
-    console.log(`Question: ${getQuestion}`);
+    const question = car(gameCheck);
+    const rightAnswer = cdr(gameCheck);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === getAnswer) {
+    if (userAnswer === rightAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${userAnswer} is wrong answer. Correct answer is ${getAnswer}`);
+      console.log(`${userAnswer} is wrong answer. Correct answer is ${rightAnswer}`);
       console.log(`Let's try again, ${userName}!`);
     }
   }

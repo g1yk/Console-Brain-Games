@@ -2,10 +2,10 @@
 install:
 	npm install
 start:
-	sudo npx babel-node src/bin/games/brain-calc.js
+	npx babel-node src/bin/games/brain-calc.js
 build:
-	sudo rm -rf dist
-	sudo npm run build
+	rm -rf dist
+	npm run build
 publish:
 	npm publish
 lint:
