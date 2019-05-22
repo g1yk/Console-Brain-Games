@@ -25,10 +25,9 @@ const description = () => {
       break;
   }
 
-
   return cons(question, correctAnswer.toString());
 };
-const intro = 'What is the result of the expression?';
 
+const intro = 'What is the result of the expression?';
 
 export default () => game(description, intro);

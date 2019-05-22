@@ -5,18 +5,12 @@ import randomInteger from '../utils';
 const intro = 'Is the number prime? Answer "yes" or "no".';
 
 const isPrime = (number) => {
-  if (number <= 1) {
-    return false;
-  }
-  if (number === 2) {
-    return true;
-  }
-  for (let count = 2; count < number; count += 1) {
-    if (number % count === 0) {
+  for (let i = 2, s = Math.sqrt(number); i <= s; i += 1) {
+    if (number % i === 0) {
       return false;
     }
   }
-  return true;
+  return number > 1;
 };
 
 const description = () => {
