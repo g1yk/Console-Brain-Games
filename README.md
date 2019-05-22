@@ -15,7 +15,7 @@ brain-calc (Solve three mini arithmetic exercises)
 
 brain-progression (Find out what number is missing in math progression)
 
-brain-nod (Find the greatest common divisor)
+brain-gcd (Find the greatest common divisor)
 
 brain-prime (Is it a prime number?)
 ```
@@ -46,10 +46,10 @@ Correct!
 ```
 [![asciicast](https://asciinema.org/a/lVzEc03EVmoTSVT7qEnlVb2y6.svg)](https://asciinema.org/a/lVzEc03EVmoTSVT7qEnlVb2y6)
 
-### Brain-nod
+### Brain-gcd
 Launch game:
 ```
-brain-nod
+brain-gcd
 ```
 Find the greatest common divisor of given numbers.
 ```
